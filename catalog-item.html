@@ -25,58 +25,56 @@
     <main class="container">
       <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
       <ul class="breadcrumbs">
-        <li><a href="index.html">ГЛАВНАЯ</a></li><!--Не изменил ссылку для перехода на гл. страницу-->
+        <li><a href="index.html">ГЛАВНАЯ</a></li><!--Изменил ссылку для перехода на гл. страницу-->
         <li><a href="#">МАГАЗИН</a></li>
         <li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
-        <li>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA</li><!--Не добавил класс выбранному пункту-->
+        <li class="site-navigation-current">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA</li><!--Добавил класс выбранному пункту-->
       </ul>
-      <section class="item-images left-block"><!--У меня нет заголовка для этого блока-->
-        <figure class="item-images"><!--Использую тег <figure>, а нужно <p>-->
-          <img src="http://placehold.it/300x300">
-          <img src="http://placehold.it/100x100"><!--Все последующие рисунки объединены в список-->
-          <img src="http://placehold.it/100x100">
-          <img src="http://placehold.it/100x100">
-        </figure>
-        <!--<p class="product-photo-full">              Вот так будет правильнее
+      <section class="item-images left-block"><!--Добавил заголовок для этого блока-->
+        <h2 class="visually-hidden">Изображения товара</h2>
+        <p class="product-photo-full">              <!--Исправил как нужно было закодировать-->
           <img src="img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
         </p>
         <ul class="product-photo-preview">
           <li><img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в анфас"></li>
           <li><img src="img/product-small-2.jpg" width="140" height="149" alt="Фото в профиль"></li>
           <li><img src="img/product-small-3.jpg" width="140" height="149" alt="Фото отдельной части"></li>
-        </ul>-->
-        <section class="product-description right-block"><!--У меня нет заголовка для этого блока-->
-          <p class="existence">ЕСТЬ В НАЛИЧИИ</p>
-          <p class="vendor-code">АРТИКУЛ: DEXTER-AE</p>
-          <p class="description">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕСУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ, В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДАЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</p>
-          <p class="price">2 900 Р</p>
-          <a class="button" href="#">КУПИТЬ</a><!--Тег <a> находится внутри тега <p>-->
-          <p class="completeness">В НАБОР ВХОДЯТ:</p><!--Это заголовок <h3> у меня тег <p>-->
-          <ul class="completeness">
-            <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
-            <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
-            <li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
-            <li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
-            <li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
-          </ul>
-        </section>
+        </ul>
+      </section>
+      <section class="product-description right-block">
+        <h2 class="visually-hidden">Описание товара</h2><!--Добавил заголовок для этого блока-->
+        <p class="existence">ЕСТЬ В НАЛИЧИИ</p>
+        <p class="vendor-code">АРТИКУЛ: DEXTER-AE</p>
+        <p class="description">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕСУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ, В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДАЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</p>
+        <p class="product-price"><!--Исправил как нужно было закодировать-->
+          <b>2 900 ₽</b>
+          <a class="button" href="#">Купить</a>
+        </p>
+        <h3>В НАБОР ВХОДЯТ:</h3><!--Это заголовок <h3> у меня тег <p>-->
+        <ul class="completeness">
+          <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
+          <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
+          <li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
+          <li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
+          <li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
+        </ul>
       </section>
     </main>
     <footer class="main-footer">
-    <p class="footer-contacts">
+      <p class="footer-contacts">
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
         <a href="map.html">Как нас найти?</a><br>
         Телефон: +7 (812) 666-02-66
-        </p> 
-        <div class="footer-social">
-          <b>Давайте дружить!</b>
-          <ul>
-              <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-          </ul>
-        </div>
+      </p> 
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
         <p class="footer-copyright">
           <b>Разработано:</b> 
           <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
