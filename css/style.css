@@ -43,3 +43,8 @@ a {
 .user-navigation a:focus {
   background-color: #242424;
 }
+
+/*Раздел преимуществ*/
+.features-list {
+  list-style: none;
+}
