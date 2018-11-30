@@ -181,3 +181,13 @@ a {
   background-color: #f9f6f3;
   border: 2px solid #000000;
 }
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
