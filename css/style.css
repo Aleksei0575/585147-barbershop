@@ -149,6 +149,11 @@ a {
   border: none;
 }
 
+.filter legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
 /*Подвал*/
 .main-footer {
   color: #ffffff;
