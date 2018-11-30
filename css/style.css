@@ -191,3 +191,13 @@ a {
   background-color: #f9f6f3;
   border: 2px solid #000000;
 }
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
