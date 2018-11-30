@@ -145,6 +145,10 @@ a {
   color: #aba9a7;
 }
 
+.filter fieldset {
+  border: none;
+}
+
 /*Подвал*/
 .main-footer {
   color: #ffffff;
