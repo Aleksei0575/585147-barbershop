@@ -192,6 +192,10 @@ a {
   line-height: 18px;
 }
 
+.catalog-category {
+  text-transform: none;
+}
+
 /*Подвал*/
 .main-footer {
   color: #ffffff;
